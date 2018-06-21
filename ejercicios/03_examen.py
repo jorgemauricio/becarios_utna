@@ -22,3 +22,12 @@ palabra = sOmetEmoS
 Resultado:
 La palabra sOmetEmoS es palíndromo
 """
+palabra = input("Ingresar palabra: ")
+
+palabra.split()
+
+cam=''.join(reversed(palabra))
+if palabra == cam:
+    print("La palabra {} es palíndromo".format(cam))
+else:
+    print("No es {} palíndromo".format(cam))

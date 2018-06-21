@@ -29,3 +29,11 @@ Longitud 4, numero de palabras 1
 
 """
 fs="Para resolver el siguiente ejercicio van a tener 20 minutos debes de subir tu branch al git"
+dicc=dict()
+for palabra in fs.split():
+    if str(len(palabra)) in dicc:
+        dicc[str(len(palabra))] +=1
+    else:
+        dicc[str(len(palabra))]=1
+for x,y in dicc.items():
+    print("Longitud {}, numero de palabras {}".format(x,y))

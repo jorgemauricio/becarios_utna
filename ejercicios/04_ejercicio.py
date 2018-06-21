@@ -25,3 +25,27 @@ Ej:
 Resultado:
 	50
 """
+
+status = True
+cuenta=0
+print("BIENVENIDO")
+print ("Para hacer un deposito ingresa D y el monto ")
+print ("Para hacer un pago ingresa P y el monto ")
+print ("Para salir ingresa EXIT ")
+transaccion=input("Transaccón \n")
+while status:
+    if transaccion.upper() == "EXIT":
+        print("Cuenta de banco con: {}".format(cuenta))
+        break
+    elif transaccion.split()[0].upper() == "D":
+        cuenta += int(transaccion.split()[1])
+        print("Su saldo es de {}".format(cuenta))
+    elif transaccion.split()[0].upper() == "P":
+        if cuenta - int(transaccion.split()[1]) < 0:
+            print("Fondos insuficientes")
+        else:
+            cuenta -= int(transaccion.split()[1])
+            print("su saldo neto es de {}".format(cuenta))
+    else:
+        print("Error")
+    transaccion = input("Transacción:\n")

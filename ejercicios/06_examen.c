@@ -9,3 +9,7 @@
 # para posteriormente sumarlos e imprimir
 # el resultado
 */
+numero=int (input("Ingresa un número a sumar "))
+numero2= int (input("Ingresa un número a sumar "))
+suma= numero + numero2
+print("el resultado de la suma es {}".format(suma))

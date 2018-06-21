@@ -23,3 +23,13 @@ Resultado: 2
 """
 
 listaDeNumeros = [7, 23, 478, 8976, 99999, 901298]
+
+for i in listaDeNumeros:
+    variable=i
+    suma=0
+    while len(str(variable)) >1:
+        for n in str(variable):
+            suma +=int(n)
+        variable=suma
+        suma=0
+    print("Resultado {}".format(variable))
