@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#FUNCIONA
 """
 #######################################
 # Author: Jorge Mauricio
@@ -223,3 +224,50 @@ Palabra SUPERIOR se repite 1
 
 
 """
+
+texto = """Muy buenas tardes a todas y a todos ustedes.
+Quiero saludar, con respeto, al Presidente de la Cámara de Diputados y al
+Presidente de la Cámara de Senadores.
+A los señores Dirigentes de los partidos políticos en nuestro país. A sus
+principales fuerzas.
+De igual forma, saludo con respeto a los señores Gobernadores. A
+Gobernadores electos. Al Jefe de Gobierno electo del Distrito Federal. Todos
+ellos con origen en distintas expresiones políticas.
+Saludo a los señores Coordinadores Parlamentarios de distintas fuerzas
+políticas que están, hoy, aquí presentes.
+Con respeto, también, saludo a la representación, en actores políticos
+distinguidos, de las distintas fuerzas políticas de nuestro país.
+A todos, les saludo con afecto y reconocimiento por este encuentro, sin duda,
+inédito, pero que representa un gran paso para impulsar la trasformación de
+nuestro país. Es el punto de encuentro y de coincidencia que, realmente,
+aplaudo, celebro, y que sea para el bien de México.
+México comienza una nueva etapa de su vida democrática. Ha llegado el
+momento del encuentro y del acuerdo. Ha llegado el momento de dar el
+siguiente paso en el perfeccionamiento democrático: Transitar del sufragio
+efectivo al gobierno eficaz.
+En este propósito, los actores políticos deben, o debemos, caminar juntos.
+Debemos dialogar para construir consensos. En esta hora decisiva de la vida
+de la República se requiere que los políticos hagamos de las coincidencias la
+base para alcanzar los acuerdos esenciales.
+Se necesita que la pluralidad y la diferencia de visiones, en lugar de ser
+obstáculo, permitan el ascenso de México, enriquezcan el proyecto de Nación
+que todos queremos para el Siglo XXI.
+Como Presidente de la República, estoy plenamente convencido que
+gobernar en democracia significa estar atento y escuchar a las diversas
+voces que expresan el sentir de los mexicanos.
+He señalado, con plena convicción, que seré un Presidente democrático.
+Esto significa voluntad absoluta para conciliar posiciones. Voluntad para
+anteponer, invariablemente, el interés superior de la Nación."""
+
+texto=texto.split()
+
+diccionario = dict()
+for palabra in texto:
+    if palabra.upper() in diccionario:
+        diccionario[palabra.upper()] += 1
+    else:
+        diccionario[palabra.upper()] = 1
+
+for k,v in diccionario.items():
+
+    print("{}, se repite  {}".format(k,v))

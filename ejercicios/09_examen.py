@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#FUNCIONA
 """
 #######################################
 # Author: Jorge Mauricio
@@ -22,14 +23,33 @@ aaaaccgiiiimnoprrrrtuu
 
 """
 def main():
-     palabra = "parangaricutirimicuaro"
+    word=[]
+    palabra=("parangaricutirimicuaro")
+    for letra in palabra:
+        word.append(letra)
+#print(unaLista)
+
+    ordenar_letras(word)
+    word="".join(word)
+    print(word)
 
 
-def ordenar_letras(word):
+def ordenar_letras(word): #word
     """
     Función que ordena las letras de una palabra
     param: word: palabra a la cual se le van a ordenar sus letras
     """
+    for numPasada in range(len(word)-1,0,-1):
+        for i in range(numPasada):
+            if word[i]>word[i+1]:
+                temp = word[i]
+                word[i] = word[i+1]
+                word[i+1] = temp
+
+
+
+
+
 
 
 if __name__ == '__main__':

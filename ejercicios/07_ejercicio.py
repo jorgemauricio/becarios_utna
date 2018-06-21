@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#FUNCIONA
 """
 #######################################
 # Author: Jorge Mauricio
@@ -26,3 +27,29 @@ Resultado:
 **************de**************
 *************hoy**************
 """
+frase="Hola becarios como se encuentran el día de hoy"
+frase=frase.split()
+pal=[]
+def funcion(div,palabra,pal,r):
+    div=int(div)
+    r=int(r)
+    for i in range(1,r):
+        pal.append("*")
+    for letra in palabra:
+        pal.append(letra)
+    for i in range(div):
+        pal.append("*")
+    pal="".join(pal)
+    print(pal, "\n\n")
+
+for palabra in frase:
+    longitud=float(len(palabra))
+    resta=31-longitud
+    div=resta/2
+    if resta%2==0:
+        r=div
+        funcion(div,palabra,pal,r)
+    else:
+        r=div+1
+        funcion(div,palabra,pal,r)
+    pal=[]
