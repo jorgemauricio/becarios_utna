@@ -24,3 +24,21 @@ Introduce la longitud deseada de tu password: 9
 
 H0La123@7
 """
+import random
+a="abcdefghjiklmnopqrstuvwxyz"
+b="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+n="1234567890"
+s="$#@"
+cad="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMOPQRSTUVWXYZ1234567890#$@"
+contrasena=[]
+cont=int(input("Ingrese su longitud de contraseña[8-20]: "))
+if cont>=8 and cont<=20:
+    contrasena+=random.sample(a,1)
+    contrasena+=random.sample(b,1)
+    contrasena+=random.sample(n,1)
+    contrasena+=random.sample(s,1)
+    contrasena+=random.sample(cad,cont-4)
+    contrasena="".join(contrasena)
+    print(contrasena)
+else:
+    print("Número fuera de longitud")

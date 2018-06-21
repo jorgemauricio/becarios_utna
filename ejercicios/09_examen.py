@@ -23,13 +23,23 @@ aaaaccgiiiimnoprrrrtuu
 """
 def main():
      palabra = "parangaricutirimicuaro"
+     lista=[]
+     lista_pal=("parangaricutirimicuaro")
+     for letra in lista_pal:
+         lista.append(letra)
+
+     ordenarmientoPorBuburbuja(lista)
+     print(lista)
+
+def ordenarmientoPorBuburbuja(lista):
+    for numP in range(len(lista)-1,0,-1):
+        for i in range(numP):
+            if lista[i]>lista[i+1]:
+                con=lista[i]
+                lista[i]=lista[i+1]
+                lista[i+1]=con
 
 
-def ordenar_letras(word):
-    """
-    Función que ordena las letras de una palabra
-    param: word: palabra a la cual se le van a ordenar sus letras
-    """
 
 
 if __name__ == '__main__':

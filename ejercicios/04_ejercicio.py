@@ -25,3 +25,31 @@ Ej:
 Resultado:
 	50
 """
+contD=0
+contp=0
+res=0
+opcion='a'
+while opcion !='S' or opcion !='s':
+    opcion, trans= input("Elige la opcion que deseas realizar\n D: Desposito \n P: Pago \n C: Consulta\n S: Salir\n ").split()
+    trans=int(trans)
+    if opcion=="D" or opcion=="d":
+        contD=contD + trans
+        res= contD-contp
+        print("Deposito: ${}".format(contD))
+    elif opcion=="P" or opcion=="p":
+        contp=contp + trans
+        print("Retiro: ${}".format(contp))
+        if contD-contp<0:
+            print("Saldo insuficiente")
+        else:
+            res= contD-contp
+    elif opcion=="C" or opcion=="c":
+        print("Deposito: ${}\n".format(contD))
+        print("Retiro: ${}\n".format(contp))
+        print("Saldo actual: ${}\n".format(res))
+    elif opcion=="S" or "s":
+        print("Close...")
+        break
+    else:
+        print("Ingresar opcion del menú")
+        opcion='a'
