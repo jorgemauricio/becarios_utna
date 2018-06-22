@@ -21,16 +21,20 @@ Resultado.
 aaaaccgiiiimnoprrrrtuu
 
 """
-def main():
-     palabra = "parangaricutirimicuaro"
 
+lista=[]
+lista_palabra = ("parangaricutirimicuaro")
 
-def ordenar_letras(word):
-    """
-    Función que ordena las letras de una palabra
-    param: word: palabra a la cual se le van a ordenar sus letras
-    """
+def ordenamiento(lista):
+    for num in range(len(lista)-1,0,-1):
+        for j in range(num):
+            if lista[j]>lista[j+1]:
+                con = lista[j]
+                lista[j]=lista[j+1]
+                lista[j+1]=con
 
+for letra in lista_palabra:
+    lista.append(letra)
 
-if __name__ == '__main__':
-     main()
+ordenamiento(lista)
+print(lista)

@@ -12,13 +12,21 @@
 
 Corrigue el siguiente script, recuerda realizar tus commits cada 5 min.
 """
-import Random
+
+import random
 a = random.randint(1,12)
 b = random.randint(1,12)
-for i in range(l0):
-  question = "What is "+a+" x "+b+"? "
-  answer = input(question)
-  if answer = a*b
-    print (Well done!)
-  else:
-    print("No.")
+i=0
+while i in range(10):
+    a=str(a)
+    b=str(b)
+    question = "\033[;36m"+"What is "+a+" x "+b+"? "
+    answer = int(input(question))
+    a=int(a)
+    b=int(b)
+    if answer == a*b:
+        print ("Well done!")
+    else:
+        print("No.")
+    i = i + 1
+print("\033[4;35;47m"+"~~~~Solo 10 intentos~~~~"+'\033[0;m')

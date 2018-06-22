@@ -23,3 +23,12 @@ Resultado: 2
 """
 
 listaDeNumeros = [7, 23, 478, 8976, 99999, 901298]
+aux=0
+for i in range(len(listaDeNumeros)):
+    lista=str(listaDeNumeros[i])
+    while len(lista)>1:
+        for x in lista:
+            aux += int(x)
+            lista = str(aux)
+        aux=0
+    print(lista)
