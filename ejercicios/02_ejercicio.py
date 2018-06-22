@@ -28,4 +28,16 @@ Longitud 4, numero de palabras 1
 
 
 """
-fs="Para resolver el siguiente ejercicio van a tener 20 minutos debes de subir tu branch al git"
+frase="Para resolver el siguiente ejercicio van a tener 20 minutos debes de subir tu branch al git"
+
+diccionario = dict()
+for palabra in frase.split():
+    if str(len(palabra)) in diccionario:
+        diccionario[str(len(palabra))] += 1
+    else:
+        diccionario[str(len(palabra))] = 1
+
+for k,v in diccionario.items():
+    print("Longitud: {}, Número de palabra: {}".format(k,v))
+
+    

@@ -26,3 +26,8 @@ agregarMinutos = 70
 Resultado:
 Fecha Final: 2018-01-01 13:10
 """
+
+año = input("Ingresar el año: ")
+mes = input("Ingresar el mes: ")
+dia = input("Ingresar el día: ")
+minutos = input("Ingresar los minutos: ")

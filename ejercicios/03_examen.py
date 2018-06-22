@@ -22,3 +22,11 @@ palabra = sOmetEmoS
 Resultado:
 La palabra sOmetEmoS es palíndromo
 """
+palabra = input("Ingrese la palabra: ")
+pal = palabra.lower()
+div =  pal.replace(' ',' ')#Es para dividir
+
+if div == div[::-1]:
+    print("La palabra {} es políndromo".format(palabra))
+else:
+    print("La palabra {} no es políndromo".format(palabra))
