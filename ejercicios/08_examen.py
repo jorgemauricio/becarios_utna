@@ -27,7 +27,6 @@ for numero in range(0,100):
 print(acum2)
 print("SUMATORIA DE NUMEROS DIVISIBLES ENTRE 5 ")
 acum5=0
-cont5=0
 for numero in range(0,100):
     if(numero % 5==0):
         acum5= acum5+numero
@@ -42,12 +41,12 @@ for numero in range(0,100):
 print(acum7/cont7)
 
 
-print("PROMEDIO DE NUMEROS DIVISIBLES ENTRE 5 y 7 ")
+print("PROMEDIO DE NUMEROS DIVISIBLES ENTRE 2, 5 y 7 ")
 acum=0
 cont=0
 
 for numero in range(0,100):
-    if(numero%5==0) and (numero%7==0):
-        acum= acum+numero
+    if(numero%5==0) and (numero%7==0) and (numero%2==0):
+        acum=acum+numero
         cont= cont+1
 print(acum/cont)

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#*******NOFUNCIONAAUN******#
+#*******FUNCIONA******#
 """
 #######################################
 # Author: Jorge Mauricio
@@ -23,3 +23,11 @@ palabra = sOmetEmoS
 Resultado:
 La palabra sOmetEmoS es palíndromo
 """
+palabra=input("Ingresa la palabra: ")
+pal=palabra.lower()
+letra=pal.replace(' ',' ')
+
+if letra== letra[::-1]:
+    print("La palabra {} es polindromo".format(palabra))
+else:
+    print("La palabra {}  no es polindromo".format(palabra))
