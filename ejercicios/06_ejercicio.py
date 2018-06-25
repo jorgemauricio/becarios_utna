@@ -26,3 +26,9 @@ agregarMinutos = 70
 Resultado:
 Fecha Final: 2018-01-01 13:10
 """
+ano=int(input("ingresa el año: "))
+mes=int(input("Ingresa el mes[1-12]: "))
+dia=int(input("Ingresa el dia: "))
+hora=int(input("Ingresa la hora: "))
+minutos=int(input("Ingresa los minutos: "))
+mina= int(input("Ingresa los minutos a agregar: "))
