@@ -33,16 +33,25 @@ __|__|__
 import random
 import time
 
-def main():
-    
+def main(num):
+a1 = [0]
+a2 = [0]
+a3 = [0]
+a4 = [0]
+a5 = [0]
+a6 = [0]
+a7 = [0]
+a8 = [0]
+a9 = [0]
+    cuadro = [a1, a2, a3]
+    cuadro1 = []
+    cuadro2 = []*num
+    for i in range(num):
+        cuadro[i] = random.randint(1,3)
+        cuadro1[i] = random.randint(1,3)
+        cuadro2[i] = random.randint(1,3)
 
-def imprimir_cuadro(a1,a2,a3,a4,a5,a6,a7,a8,a9):
-    print("\n")
-    print("{}|{}|{}".format(a1,a2,a3))
-    print("{}|{}|{}".format(a4,a5,a6))
-    print("{}|{}|{}".format(a7,a8,a9))
-    print("\n")
-    #time.sleep(0.5)
+    return cuadro, cuadro1, cuadro2
 
-if __name__ == '__main__':
-    main()
+num = 3
+print(main(num))

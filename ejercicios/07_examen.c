@@ -8,35 +8,23 @@
 # Corregir el siguiente código en c
 */
 
-
 #include <stdio.h>
-int main()
-{
-    int number1
-    int number2;
-    int number3
 
-    // Print Menu
-    printf("El siguiente programa te solicitara que ingreses dos números");
-    printf("Posteriormente te indicara los números que te solicito");
-    printf("Primero desplegando el primer número");
-    printf("Y en seguida el segundo número");
+int main(){
 
-    // printf() dislpays the formatted output
-    printf("Ingresa el primer entero: ");
+  int number1, number2;
 
-    // scanf() reads the formatted input and stores them
-    scanf("%c", &number1);
+  printf("El siguiente programa te solicitara que ingreses dos numeros");
+  printf("Posteriormente te indicara los numeros que te solicito");
+  printf("Primer desplegando el primer numero");
+  printf("Y en seguida el segundo numero \n");
 
-    // printf() dislpays the formatted output
-    printf("Ingresa el segundo entero: ");
+  printf("Ingresar el primer entero: " );
+  scanf("%i",&number1);
+  printf("Ingresar el segundo entero: " );
+  scanf("%i",&number2);
+  printf("Primer número: %i\n", number1);
+  printf("Segundo número: %i\n", number2);
 
-    // scanf() reads the formatted input and stores them
-    scanf("%s", &Number3);
-
-    // printf() displays the formatted output
-    printf("Primer número: %d", number1);
-    printf("Segundo número: %f", number2);
-
-    return 1;
+  return 0;
 }

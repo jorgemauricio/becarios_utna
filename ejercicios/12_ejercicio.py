@@ -34,50 +34,35 @@ numero2=0
 numero3=0
 numero4=0
 numero5=0
+matrix[0] = sorted(matrix[0])
+matrix[1] = sorted(matrix[1])
+matrix[2] = sorted(matrix[2])
+matrix[3] = sorted(matrix[3])
+matrix[4] = sorted(matrix[4])
+
+numero1 = matrix[0][4]
+numero2 = matrix[1][4]
+numero3 = matrix[2][4]
+numero4 = matrix[3][4]
+numero5 = matrix[4][4]
+elemento = 0
+
+for x in range(5):
+    if numero1 == numero2 or numero1 == numero3 or numero1 == numero4 or numero1 == numero5:
+        elemento = elemento + 1
+        numero1 = matrix[0][4-elemento]
+    elif numero2 == numero3 or numero2 == numero4 or numero2 == numero5:
+        elemento = elemento + 1
+        numero2 = matrix[1][4-elemento]
+    elif numero3 == numero4 or numero3 == numero5:
+        elemento = elemento + 1
+        numero3 = matrix[2][4-elemento]
+    elif numero4 == numero5:
+        elemento = elemento + 1
+        numero4 = matrix[3][4-elemento]
 print(matrix)
-
-for array in matrix:
-    for elemento in array:
-        if elemento>numero1:
-            numero2=numero1
-            numero3=numero1
-            numero4=numero1
-            numero5=numero1
-            numero1=elemento
-        elif elemento>numero2:
-            numero3=numero2
-            numero4=numero2
-            numero5=numero2
-            numero2=elemento
-        elif elemento>numero3:
-            numero4=numero3
-            numero5=numero3
-            numero3=elemento
-        elif elemento>numero4:
-            numero5=numero4
-            numero4=elemento
-        elif elemento>numero5:
-            numero5=elemento
-print("1 {}".format(numero1))
-print("2 {}".format(numero2))
-print("3 {}".format(numero3))
-print("4 {}".format(numero4))
-print("5 {}".format(numero5))
-y=0
-
-for array in matrix:
-    x=0
-    for elemento in array:
-        if elemento==numero1:
-            print("Valor {}  Posición: {}:{}".format(numero1,y,x))
-        elif elemento ==numero2:
-            print("Valor {}  Posición: {}:{}".format(numero2,y,x))
-        elif elemento ==numero3:
-            print("Valor {}  Posición: {}:{}".format(numero3,y,x))
-        elif elemento ==numero4:
-            print("Valor {}  Posición: {}:{}".format(numero4,y,x))
-        elif elemento ==numero5:
-            print("Valor {}  Posición: {}:{}".format(numero5,y,x))
-
-        x=x+1
-    y=y+1
+print("Fila 1, numero mayor: {}".format(numero1))
+print("Fila 2, numero mayor: {}".format(numero2))
+print("Fila 3, numero mayor: {}".format(numero3))
+print("Fila 4, numero mayor: {}".format(numero4))
+print("Fila 5, numero mayor: {}".format(numero5))

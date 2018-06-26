@@ -32,3 +32,39 @@ mes = input("Ingresar el mes: ")
 dia = input("Ingresar el día: ")
 hora = input("Ingrear la hora: ")
 minutos = input("Ingresar los minutos: ")
+
+if dia > 30:
+    print("Solo 30 días")
+else:
+    if dia >=25:
+        mes = mes + 1
+        dia = dia - 30 + 1
+    else:
+        dia = dia + 1
+else:
+if dia > 31:
+    print("Solo 31 días")
+else:
+    if dia >=25:
+        mes = mes + 1
+        dia = dia - 31 + 1
+        if mes >= 12:
+            año = año + 1
+            mes = 1
+        else:
+            mes = mes
+        if mes1==2:
+            if año1 % 4 == 0:
+                if dia1 > 29:
+                    print ("Solo 29 dias")
+                else:
+                    dia = dia1 - 29 + 1
+                    mes = mes1 + 1
+            if dia1 > 28:
+                print("Solo 28 dias")
+            else:
+                dia = dia1 - 28 + 1
+                mes = mes1 + 1
+
+    else:
+        dia = dia + 1
