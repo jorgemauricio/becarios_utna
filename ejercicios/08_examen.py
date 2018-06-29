@@ -3,12 +3,10 @@
 #FUNCIONA
 """
 #######################################
-# Author: Jorge Mauricio
-# Email: jorge.ernesto.mauricio@gmail.com
-# Date: 2018-02-01
+# Author: Lucrecia Rodríguez
+# Email: lucrepbarone@gmail.com
+# Date: 2018-06-28
 # Version: 1.0
-# No. Examen 8
-# Valor: 10 puntos
 #######################################
 
 De una serie de datos del 0 al 100, realizar

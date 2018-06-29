@@ -3,12 +3,10 @@
 #FUNCIONA
 """
 #######################################
-# Author: Jorge Mauricio
-# Email: jorge.ernesto.mauricio@gmail.com
-# Date: 2018-02-01
+# Author: Lucrecia Rodríguez
+# Email: lucrepbarone@gmail.com
+# Date: 2018-06-28
 # Version: 1.0
-# No. Examen 2
-# Valor: 9 puntos
 #######################################
 
 Corrigue el siguiente script, recuerda realizar tus commits cada 5 min.

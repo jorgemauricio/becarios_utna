@@ -3,9 +3,9 @@
 #FUNCIONA
 """
 #######################################
-# Author: Jorge Mauricio
-# Email: jorge.ernesto.mauricio@gmail.com
-# Date: 2018-02-01
+# Author: Lucrecia Rodríguez
+# Email: lucrepbarone@gmail.com
+# Date: 2018-06-28
 # Version: 1.0
 #######################################
 
@@ -33,7 +33,7 @@ numer2=0
 numer3=0
 numer4=0
 numer5=0
-print(matrix[0])
+#print(matrix[0])
 matrix[0]=sorted(matrix[0])
 matrix[1]=sorted(matrix[1])
 matrix[2]=sorted(matrix[2])
@@ -66,8 +66,8 @@ if numer1==numer2:
 if numer1==numer4:
     numer1=matrix[0][2]
 """
-print(numer1)
-print(numer2)
-print(numer3)
-print(numer4)
-print(numer5)
+print("Fila 1. Numero mayor: {}".format(numer1))
+print("Fila 2. Numero mayor: {}".format(numer2))
+print("Fila 3. Numero mayor: {}".format(numer3))
+print("Fila 4. Numero mayor: {}".format(numer4))
+print("Fila 5. Numero mayor: {}".format(numer5))

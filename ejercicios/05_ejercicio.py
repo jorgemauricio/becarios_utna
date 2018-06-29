@@ -3,12 +3,11 @@
 #FUNCIONA
 """
 #######################################
-# Author: Jorge Mauricio
-# Email: jorge.ernesto.mauricio@gmail.com
-# Date: 2018-02-01
+# Author: Lucrecia Rodríguez
+# Email: lucrepbarone@gmail.com
+# Date: 2018-06-28
 # Version: 1.0
 #######################################
-
 Objetivo:
 Un sitio de internet requiere que el password que ingresa el usuario
 cumpla con las siguientes caracteristicas para un registro satisfactorio:

@@ -3,12 +3,10 @@
 #FUNCIONA
 """
 #######################################
-# Author: Jorge Mauricio
-# Email: jorge.ernesto.mauricio@gmail.com
-# Date: 2018-02-01
+# Author: Lucrecia Rodríguez
+# Email: lucrepbarone@gmail.com
+# Date: 2018-06-28
 # Version: 1.0
-# No. Examen 2
-# Valor: 10 puntos
 #######################################
 
 Script que permita determinar si una palabra es

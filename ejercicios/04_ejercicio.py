@@ -3,12 +3,11 @@
 #FUNCIONA
 """
 #######################################
-# Author: Jorge Mauricio
-# Email: jorge.ernesto.mauricio@gmail.com
-# Date: 2018-02-01
+# Author: Lucrecia Rodríguez
+# Email: lucrepbarone@gmail.com
+# Date: 2018-06-28
 # Version: 1.0
 #######################################
-
 Objetivo:
 Escribe un programa que calcule el valor neto de una cuenta de banco basado
 en las transacciones que se ingresan en la consola de comandos.

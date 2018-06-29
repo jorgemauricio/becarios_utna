@@ -3,12 +3,11 @@
 #FUNCIONA
 """
 #######################################
-# Author: Jorge Mauricio
-# Email: jorge.ernesto.mauricio@gmail.com
-# Date: 2018-02-01
+# Author: Lucrecia Rodríguez
+# Email: lucrepbarone@gmail.com
+# Date: 2018-06-28
 # Version: 1.0
 #######################################
-
 Objetivo:
 De una frase, imprimir cada una de sus palabras centradas en un marco de 30
 espacios
