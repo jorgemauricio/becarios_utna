@@ -3,8 +3,8 @@
 ###########NOFUNCIONAAUN##############
 """
 #######################################
-# Author: Jorge Mauricio
-# Email: jorge.ernesto.mauricio@gmail.com
+# Author: Jaqueline Espinoza
+# Email: jaqueespinoza791@gmail.com
 # Date: 2018-02-01
 # Version: 1.0
 # No. Examen 2

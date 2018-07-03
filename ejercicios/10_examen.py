@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 #######################################
-# Author: Jorge Mauricio
-# Email: jorge.ernesto.mauricio@gmail.com
+# Author: Jaqueline Espinoza
+# Email: jaqueespinoza791@gmail.com
 # Date: 2018-02-01
 # Version: 1.0
 # No. Examen 10
@@ -34,7 +34,7 @@ import random
 import time
 
 def main():
-    
+
 
 def imprimir_cuadro(a1,a2,a3,a4,a5,a6,a7,a8,a9):
     print("\n")
