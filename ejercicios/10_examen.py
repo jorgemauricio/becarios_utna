@@ -31,11 +31,12 @@ __|__|__
 # Librerías
 import random
 import time
-
+import os
 def main():
     cont=0
     Status=True
     while Status:
+
         numeros=["1","2","3","4","5","6","7","8","9"]
         a1=random.sample(numeros,1)
         a1=" ".join(a1)
@@ -93,6 +94,8 @@ def main():
         sum8=a3+a5+a7
         cont=cont+1
         #print("###### sumaaa",sum1)
+        imprimir_cuadro(a1,a2,a3,a4,a5,a6,a7,a8,a9)
+        os.system("clear")
         if sum1==15 and sum2==15 and sum3==15 and sum4==15 and sum5==15 and sum6==15 and sum7==15 and sum8==15:
             #print(sum1)
             #imprimir_cuadro(a1,a2,a3,a4,a5,a6,a7,a8,a9)
