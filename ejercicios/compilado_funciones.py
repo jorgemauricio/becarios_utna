@@ -1,5 +1,9 @@
 #from funciones  import area_cuadrado
 
+# Author: Carolina Briano
+# Email: carolinabriano15@gmail.com
+# Date: 2018-07-02
+
 def area_triangulo(b,h):
     """
     Función que calcula el área de un triángulo

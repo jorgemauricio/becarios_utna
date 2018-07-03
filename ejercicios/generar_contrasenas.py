@@ -1,4 +1,9 @@
+
+# Author: Carolina Briano
+# Email: carolinabriano15@gmail.com
+# Date: 2018-07-02
 import random
+
 
 caracteres = "abcdefghijklmnospqrstuvwxyzABCDEFGHIJKLMNOSPQRSTUVWXYZ1234567890$#@"
 

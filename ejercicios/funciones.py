@@ -1,4 +1,7 @@
 """
+# Author: Carolina Briano
+# Email: carolinabriano15@gmail.com
+# Date: 2018-07-02
 Generar un programa que pregunte al usuario
 que área es la que desea calcular
 

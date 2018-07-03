@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 #######################################
-# Author: Jorge Mauricio
-# Email: jorge.ernesto.mauricio@gmail.com
-# Date: 2018-02-01
+# Author: Carolina Briano
+# Email: carolinabriano15@gmail.com
+# Date: 2018-07-02
 # Version: 1.0
 #######################################
 
@@ -39,5 +39,3 @@ for palabra in frase.split():
 
 for k,v in diccionario.items():
     print("Longitud: {}, Número de palabra: {}".format(k,v))
-
-    
